@@ -28,6 +28,8 @@ public class Cliente {
     }
 
     public void setNroAgencia(String nroAgencia){
+        // quando um metodo é chamdo por um objeto
+        // esse metodo é chamado de método de instancia
         if(nroAgencia.length() == 6){
             if(nroAgencia.charAt(4) == '-'){
                 this.nroAgencia = nroAgencia;
